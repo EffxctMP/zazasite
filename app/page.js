@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
+
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
@@ -11,30 +12,30 @@ export default function Home() {
         </p>
         <div>
           <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://discord.gg/Yx75qwk2n9"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
             <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
+              src="/zazalogo.png"
+              alt="ZaZa Logo"
+              className={styles.zazalogo}
               width={100}
-              height={24}
+              height={40}
               priority
             />
           </a>
         </div>
       </div>
+      
 
-      <div className={styles.center}>
+      <div className={styles.zazalogo}>
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
+          className={styles.zazalogo}
+          src="/zazabig.png"
+          alt="ZaZa Big Logo"
+          width={800}
+          height={400}
           priority
         />
       </div>
@@ -93,3 +94,4 @@ export default function Home() {
     </main>
   );
 }
+      
